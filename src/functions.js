@@ -8,11 +8,13 @@ class bot {
     start() {
         this.client.initialize();
         console.log('iniciando bot')
+        let code = ''
         this.client.on('qr', qr => {
             console.log('codigo Generado')
             console.log('-----------------------------------------------------------------------------------------------------')
             console.log(qr)
             console.log('-----------------------------------------------------------------------------------------------------')
+            code=qr;
             qrcode.generate(qr, { small: true });
 
         });
@@ -20,6 +22,7 @@ class bot {
             console.log('Bot conectado');
             this.client.sendMessage('573133085614@c.us', 'servicio iniciado');
         });
+        return code
     }
     sendMenssageCustomQA(resive, response) {
         this.client.on('message', message => {
