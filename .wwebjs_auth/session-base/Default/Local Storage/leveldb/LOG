@@ -1,3 +1,6 @@
-2023/04/23-14:17:08.043 1674 Reusing MANIFEST C:\Users\JuanDavid\Documents\bot project\back\.wwebjs_auth\session-base\Default\Local Storage\leveldb/MANIFEST-000001
-2023/04/23-14:17:08.044 1674 Recovering log #3
-2023/04/23-14:17:08.046 1674 Reusing old log C:\Users\JuanDavid\Documents\bot project\back\.wwebjs_auth\session-base\Default\Local Storage\leveldb/000003.log 
+2023/04/24-22:57:05.747 f50 Reusing MANIFEST C:\Users\JuanDavid\Documents\bot project\back\.wwebjs_auth\session-base\Default\Local Storage\leveldb/MANIFEST-000001
+2023/04/24-22:57:05.757 f50 Recovering log #3
+2023/04/24-22:57:05.930 f50 Reusing old log C:\Users\JuanDavid\Documents\bot project\back\.wwebjs_auth\session-base\Default\Local Storage\leveldb/000003.log 
+2023/04/24-22:59:12.334 1f74 Level-0 table #5: started
+2023/04/24-22:59:12.490 1f74 Level-0 table #5: 21376 bytes OK
+2023/04/24-22:59:12.760 1f74 Delete type=0 #3
