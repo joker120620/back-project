@@ -10,6 +10,7 @@ class bot {
         console.log('iniciando bot')
         this.client.on('qr', qr => {
             console.log('codigo Generado')
+            console.log(qr)
             qrcode.generate(qr, { small: true });
 
         });
