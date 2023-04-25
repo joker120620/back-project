@@ -6,7 +6,7 @@ const app = express()
 app.use(cors())
 app.use(express.json());
 const port = 5000
-Bot.start()
+let code = Bot.start()
 ////enviar mensaje  dependiendo el msj que recibe example. 
 // recibe: hola envia: como estas?
 Bot.sendMenssageCustomQA('hi','como estas?')
@@ -15,6 +15,9 @@ Bot.answersQuerys()
 console.log('end bot')
 app.get('/', (req, res) => {
   res.send('server online')
+})
+app.get('/getcode', (req, res) => {
+  res.json({"code":qr})
 })
 app.listen(port, () => {
   console.log(`Servidor corriendo en el puerto ${port}`)
