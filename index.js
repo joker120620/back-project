@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
   res.send('server online')
 })
 app.get('/getcode', (req, res) => {
-  res.json({"code":qr})
+  res.json({"code":code})
 })
 app.listen(port, () => {
   console.log(`Servidor corriendo en el puerto ${port}`)
